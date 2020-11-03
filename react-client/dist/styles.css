@@ -1,0 +1,47 @@
+.container {
+  margin: 5px;
+}
+
+.main {
+  margin-top: 2%;
+  margin-bottom: 42%;
+}
+
+.logo {
+  width: 200px;
+  height: 160px;
+  margin-left: 70%
+}
+
+.general img {
+  width: 300px;
+  height: auto;
+  border-radius: 12px;
+}
+
+.general {
+  display: flex;
+  justify-content: space-between;
+  overflow: auto hidden;
+  height: 200px;
+  scroll-snap-type: x mandatory;
+  padding: 5px;
+  border: 5px solid powderblue;
+  background-color: white;
+  margin-bottom: 2%;
+  bottom: 0;
+}
+
+.itemcontain {
+  margin-left: 20%;
+  margin-right:20%;
+  font-size: 20px;
+  font-weight: 480;
+}
+
+.itemcontain img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+
+}
