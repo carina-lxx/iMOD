@@ -10,7 +10,7 @@
 .logo {
   width: 200px;
   height: 160px;
-  margin-left: 70%
+  margin-left: 60%
 }
 
 .general img {
@@ -32,16 +32,40 @@
   bottom: 0;
 }
 
-.itemcontain {
+/* .itemcontain {
   margin-left: 20%;
   margin-right:20%;
   font-size: 20px;
   font-weight: 480;
-}
+} */
 
 .itemcontain img {
-  width: 100%;
+  width: 80%;
   height: auto;
-  border-radius: 12px;
+  border-radius: 50%;
+  margin-left: 10%
+}
+
+.itemcontain {
+  font-size: 20px;
+  font-weight: 480;
+  margin-left: 20%;
+  margin-right:20%;
+	position: relative;
+
+  .main-image {
+		position: absolute;
+		width: 200px;
+		height:180px;
+		left: 5px;
+		top: 5px;
+		background-size: 300px 300px;
+		background-position: center center;
+		z-index: 2;
+		transition: .5s cubic-bezier(.5,.03,.41,1);
+	}
+
 
 }
+
+

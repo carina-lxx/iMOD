@@ -4,21 +4,23 @@ import $ from 'jquery';
 import List from './components/List.jsx';
 import styled from 'styled-components';
 
-const Title = styled.div`
-  display: flex;
-  position: relative;
-  justify-content: center;
-  margin: 2px;
-  font-size: 45px;
-  font-weight: 600;
-  font-style: oblique
 
-`;
 const Gentitle = styled.div`
   display: flex;
   margin: 2px;
   font-size: 30px;
   font-weight: 600;
+`;
+const Top = styled.div`
+  display: flex;
+  margin-left: 10%;
+  margin-right: 15%;
+  justify-content: space-between;
+`;
+const Logo = styled.span`
+  display: flex;
+  margin-top: 2%;
+  margin-right: 15%;
 `;
 
 
@@ -50,8 +52,14 @@ class App extends React.Component {
   }
   render () {
     return (<div className="container">
+      <Top>
+      <span>
+      <img src='./name.png' />
+      </span>
+      <Logo>
       <img className="logo" src='./logo.png' />
-      <Title>i MOD</Title>
+      </Logo>
+      </Top>
       <List  className="main" items={this.state.items}/>
         <Gentitle>Most liked pictures from forum</Gentitle>
       <div className="general">
