@@ -18,7 +18,6 @@ Our app gathers all infromation from car modifiers like you on all parts they've
 ## We got all the infromation you need for modifying your own car. Let us help you tune it up!
 
 ## Get Started ##
-run npm react-dev
-    npm server-dev
+run npm react-dev / run npm server-dev
 
 
